@@ -1,10 +1,9 @@
 
-// vite.config.ts
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/one_touch_move/',  // 🔥 project repo name
   plugins: [react()],
+  base: '/one_touch_move/',   // ✅ repo name yaha daalna zaroori hai
 })
-

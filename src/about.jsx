@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <img
-            src="/images/logo.png"
+            src={`${import.meta.env.BASE_URL}images/logo.png`}
             alt="Physiotherapy Session"
             className="rounded-2xl shadow-lg w-full"
           />

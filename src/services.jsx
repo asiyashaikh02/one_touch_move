@@ -11,8 +11,9 @@ export default function Services() {
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Clinic Visit */}
         <div className="bg-white p-6 rounded-lg shadow-md text-center">
+
           <img
-            src="/images/ClinicVisit.jpg"
+            src={`${import.meta.env.BASE_URL}images/ClinicVisit.jpg`}
             alt="Clinic Visit"
             className="w-full h-48 object-cover rounded-md"
           />
@@ -45,8 +46,9 @@ export default function Services() {
 
         {/* Digital Physio Session */}
         <div className="bg-white p-6 rounded-lg shadow-md text-center">
+          
           <img
-            src="/images/digitalphiso.jpg"
+            src={`${import.meta.env.BASE_URL}images/digitalphiso.jpg`}
             alt="Digital Session"
             className="w-full h-48 object-cover rounded-md"
           />
